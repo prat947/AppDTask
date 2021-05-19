@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Signup"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/white"
+        android:text="Sign Up !"
+        android:layout_marginBottom="20dp"
+        android:textSize="50sp"
+        android:layout_marginLeft="30dp"
+       />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#282828"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="#C0C0C0"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/College"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#282828"
+        android:textColor="@color/white"
+        android:textColorHint="#C0C0C0"
+        android:ems="10"
+        android:hint="College"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#282828"
+        android:textColor="@color/white"
+        android:textColorHint="#C0C0C0"
+        android:ems="10"
+        android:hint="Course"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/current_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#282828"
+        android:textColor="@color/white"
+        android:textColorHint="#C0C0C0"
+        android:ems="10"
+        android:hint="Current Year"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/roll_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#282828"
+        android:textColor="@color/white"
+        android:textColorHint="#C0C0C0"
+        android:ems="10"
+        android:hint="Roll Number"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#282828"
+        android:textColor="@color/white"
+        android:textColorHint="#C0C0C0"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/contactno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#282828"
+        android:textColor="@color/white"
+        android:textColorHint="#C0C0C0"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#282828"
+        android:textColorHint="#C0C0C0"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:hint="Set Password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/already"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textColor="@color/white"
+        android:text="Already Have Account?"
+        android:paddingBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="90dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_google"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:text="Sign Up using Google"
+            android:textAllCaps="false"
+            android:layout_marginRight="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
